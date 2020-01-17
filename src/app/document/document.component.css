@@ -1,0 +1,36 @@
+.btn-custom {
+    color: #003366;
+    font-family: 'Campton SemiBold';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.note {
+    font-family: 'Campton Medium';
+    font-size: 12px;
+    line-height: 16px;
+    color: #1A1A1A;
+}
+
+.pre-text{
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Campton Book';
+    letter-spacing: 0;
+    color: #1A1A1A;
+}
+
+.marked{
+    display: visible !important;
+}
+.radio-hide{
+    background-color: red;;
+}
+
+.opt{
+    background-color:rgba(235, 34, 50, 0.2);
+    padding: 5px;
+    background-repeat: no-repeat;
+    height: auto;
+}

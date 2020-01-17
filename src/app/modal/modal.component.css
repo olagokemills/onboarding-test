@@ -1,0 +1,110 @@
+.modal-open .modal {
+    background-color: rgba(0, 51, 102, 0.81) !important;
+}
+
+.modal-dialog {
+    max-width: 754px!important;
+}
+
+.bg-left {
+    margin-left:-50px; 
+    margin-top:-40px;
+    overflow: hidden;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+}
+
+.bg-right {
+    margin-right:-55px; 
+    margin-top:-20px; 
+    overflow: hidden;
+    transform: matrix(0.87, 0.5, -0.5, 0.87, 0, 0);
+}
+
+.modal-title-text {
+    font-family: 'Campton SemiBold';
+    font-size: 28px;
+    line-height: 39px;
+    color: #1A1A1A;
+}
+
+.modal-sub-text {
+    font-family: 'Campton Book';
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1A1A;
+}
+
+.modal-account-text {
+    font-family: 'Campton Bold';
+    font-size: 36px;
+    line-height: 49px;
+    color: #1A1A1A;
+}
+
+.modal-footer-text {
+    padding-bottom: 15px;
+    font-family: 'Campton Book';
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1A1A;
+}
+
+.btn-custom {
+    color: #FF0032;
+    border: 1px solid #FF0032;
+    border-radius: 3px;
+    font-family: 'Campton SemiBold';
+    font-size: 18px;
+    padding: 15px 27px;
+}
+
+.md-content {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.app-icon {
+    /* width: 60%; */
+}
+
+.download-m {
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .btn-custom {
+        color: #FF0032;
+        border: 1px solid #FF0032;
+        border-radius: 3px;
+        font-family: 'Campton SemiBold';
+        font-size: 18px;
+        padding: 15px 27px;
+    }
+    .md-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .modal-logo {
+        padding-top: 40px;
+    }
+
+    .modal-footer-text {
+        padding-bottom: 0px;
+    }
+
+    .download {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .download-m {
+        display: none;
+    }
+  
+}

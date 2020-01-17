@@ -1,0 +1,41 @@
+<div class="container-fluid header d-none d-md-block d-lg-block">
+        <nav class="navbar navbar-light container ">
+            <div class="row w-100">
+                <div  class="col-md-5">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/Image 2@2x.png" class="img-responsive" width="104px" height="46px">
+                    </a>
+                </div>
+                <div class="col-md-7 tab-col">
+                    <div class="row h-100">
+                       <div class="col-md-4 pl-4 nav-tab d-flex align-items-center" routerLinkActive="nav-tab-active"><a [routerLink]="['/personal-information']"><span><input type="radio" name="option" value="personal" class="radio-hide"><img src="assets/img/marked.png" class="marked responsive-img d-none"/> <span class="nav-tab-text">Personal Information</span></span></a></div>
+                        <div class="col-md-4 pl-4 nav-tab d-flex align-items-center" routerLinkActive="nav-tab-active"><a [routerLink]="['/documents-upload']"  ><span><input type="radio" name="option" value="document"> <span class="nav-tab-text">Document Upload</span></span></a></div>
+                        <div class="col-md-4 pl-4 nav-tab d-flex align-items-center" routerLinkActive="nav-tab-active"><a [routerLink]="['/review-details']"><span><input type="radio" name="option" value="upload"> <span class="nav-tab-text">Review and Submit</span></span></a></div>
+                    </div>
+                </div>
+            </div> 
+        </nav>        
+    </div>
+
+    <div class="container-fluid logo-section d-sm-block d-md-none">
+        <div class="row d-flex justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Image 2@2x.png" class="img-responsive" width="104px" height="46px">
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="second-nav">
+            <div class="row h-100 nav nav-tabs d-none" id="myTab" role="tablist">
+                <div class="col nav-tab-active pl-3 d-flex align-items-center" role="button"><a id="personal-tab" data-toggle="tab" routerLink="personal-information"><span><input type="radio" name="option" value="personal"> <span class="nav-tab-text">Personal Information</span></span></a></div>
+                <div class="col-2 pr-0 text-right d-flex align-items-center"><a id="document-tab" data-toggle="tab" routerLink="document-upload"><span><input type="radio" name="option" value="document"> <span class="nav-tab-text">2</span></span></a></div>
+                <div class="col-2 pr-0 text-right d-flex align-items-center" id="review-tab" data-toggle="tab" routerLink="review-details"><span><input type="radio" name="option" value="review"> <span class="nav-tab-text">3</span></span></div>
+            </div>
+            <div class="row h-100 w-100 nav nav-tabs" id="myTab">
+                <div class="col p-tab nav-tab-active pl-3 d-flex align-items-center" id="personal-tab" role="button" (click)="goToRoute('personal-information')"><span><input type="radio" name="option" value="personal"> <span class="nav-tab-text">{{ tabName1 }}</span></span></div>
+                <div class="col-3 d-tab pr-0 text-right d-flex align-items-center" id="document-tab" role="button" (click)="goToRoute('documents-upload')"><span><input type="radio" name="option" value="document"> <span class="nav-tab-text">{{ tabName2 }}</span></span></div>
+                <div class="col-3 r-tab pr-0 text-right d-flex align-items-center" id="review-tab" role="button" (click)="goToRoute('review-details')"><span><input type="radio" name="option" value="review"> <span class="nav-tab-text">{{ tabName3 }}</span></span></div>
+            </div>
+        </div>
+    </div>

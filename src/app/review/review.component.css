@@ -1,0 +1,54 @@
+/*Update Page**/
+.title-name {
+    font-family: 'Campton Book';
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1A1A;
+}
+
+.details-box {
+    border:0.6px solid #707070; 
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.edit-button-contain {
+    position: absolute;
+    right: 0; 
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.term{
+    color: #1A1A1A;
+    font-family: 'Campton SemiBold';
+    font-size: 14px;
+    line-height: 19px;
+}
+.value{
+    color: #1A1A1A;
+    font-family: 'Campton Book';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.my-list{
+    list-style-type: none;
+}
+
+input[type='radio'] {
+    border: 1px solid #003366;
+  }
+.s-b-4{
+    border-radius: 0;
+    font-family: 'Campton Medium';
+    /* width: 30%; */
+    font-size: 0.9em;
+    color: #003366;
+}
+
+@media (min-width: 600px) {
+    .details {
+        margin-top: 40px;
+    }
+}

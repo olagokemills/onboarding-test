@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Campton Regular";
+    src: url("assets/fonts/Campton/OTF/Campton-Medium.otf");
+}
+
+@font-face {
+    font-family: "Campton Bold";
+    src: url("assets/fonts/Campton/OTF/Campton-Bold.otf");
+}
+
+@font-face {
+    font-family: "Campton ExtraBold";
+    src: url("assets/fonts/Campton/OTF/Campton-ExtraBoldItalic.otf");
+}
+
+@font-face {
+    font-family: "Campton SemiBold";
+    src: url("assets/fonts/Campton/OTF/Campton-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "Campton Book";
+    src: url("assets/fonts/Campton/OTF/Campton-Book.otf");
+}
+@font-face {
+    font-family: "Campton Medium";
+    src: url("assets/fonts/Campton/OTF/Campton-Medium.otf");
+}
+@font-face {
+    font-family: "Campton SemiBoldItalic";
+    src: url("assets/fonts/Campton/OTF/Campton-SemiBoldItalic.otf");
+}

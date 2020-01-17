@@ -1,0 +1,21 @@
+.modal-dialog1 {
+    position: absolute;
+    /* top:0; */
+    right:0;
+    left:0;
+    bottom:0;
+    /* height: 100vh; */
+ }
+
+ .modal-open .modal {
+    background-color: rgba(0, 51, 102, 0.81) !important;
+}
+
+.items{
+    font-family: 'Campton Regular';
+    font-size:1em; 
+    color:#003366
+}
+.extra{
+    color:rgba(0,51,201, 0.39);
+}
